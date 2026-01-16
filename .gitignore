@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.pyc
+
+# Virtual Environment
+.venv/
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.tmproj
+nbproject/
+
+# Logs
+logs/
+*.log
+
+# Coverage
+.coverage
+htmlcov/
+.coverage.xml
+.pytest_cache/
+.hypothesis/
+
+# Docker
+.dockerignore
+*.tar.gz
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Backup & Temp
+*.tmp
+
+# Development
+.env.local
+.env.*.local
+.env.backup
+*.env
+.env.backup
+.env.local
+.env.dev
+.env.test
+.env.prod
+.env.staging
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.xml
