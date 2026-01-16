@@ -34,9 +34,7 @@ class RedisClient:
                     socket_connect_timeout=2,
                     socket_timeout=2,
                 )
-                await asyncio.wait_for(
-                    self.redis_client.ping(), timeout=3
-                )
+                await asyncio.wait_for(self.redis_client.ping(), timeout=3)
                 app_logger.info("Connected to Redis successfully")
                 return True
             except Exception as e:

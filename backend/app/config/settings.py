@@ -9,7 +9,7 @@ class Settings(BaseSettings):
     SECRET_KEY: str = "secret-key"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 30
     MAX_MOLECULE_SIZE: int = 1000
-    
+
     class Config:
         env_file = ".env"
 

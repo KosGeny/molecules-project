@@ -1,7 +1,7 @@
 import sys
 import os
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from app.src.utils.rdkit_utils import validate_smiles, find_substructure_matches
 from app.db.models.molecule import MoleculeBase
